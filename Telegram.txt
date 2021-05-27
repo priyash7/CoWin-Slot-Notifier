@@ -1,0 +1,6 @@
+Create a bot from BotFather in telegram.
+After creation you'll get a Bot Token, use it in the python script(*remember-Don't share your bot token publically)
+Create a group in telegram and add this bot.
+Mention your group id in the python script.
+
+***********************************Done*****************************************

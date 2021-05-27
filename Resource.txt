@@ -1,0 +1,9 @@
+pip install schedule |
+pip install requests |->modules that should be installed
+pip install datetime |
+
+
+Co-Win Public APIs - "https://apisetu.gov.in/public/api/cowin"
+		      There asre various APIs, use as per your needs.
+		      I have used "calendarByDistrict".
+
