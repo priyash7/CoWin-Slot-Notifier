@@ -6,9 +6,9 @@ import time
 cowin_api = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict"
 now = datetime.now()
 current_date = now.strftime("%d-%m-%Y")
-telegram_api = "https://api.telegram.org/bot1837680589:AAEL8W6k_qo7RvYzRsueJRJWMtuDBao9YTw/sendMessage?chat_id=@__groupid__&text="
-telegram_id = "co_win_slots_notifier"
-state_district_ids = [240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,82,100,97,265,276,294,287,292,725] 
+telegram_api = "https://api.telegram.org/bot<bot_token>/sendMessage?chat_id=@__groupid__&text="
+telegram_id = <telegram_group_id>
+state_district_ids = [240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,82,100,97,265,276,294,287,292,725]#all district codes are not added 
 
 #for sending message in telegram
 def telegram_notification(message):
