@@ -46,7 +46,7 @@ def state_data(district_ids):
 
 #for automating task
 if __name__ == "__main__":
-	schedule.every(30).minutes.do(state_data , district_id=state_district_ids)
+	schedule.every(30).minutes.do(state_data , district_ids=state_district_ids)
 	while 1:
 		schedule.run_pending()
 		time.sleep(1)
